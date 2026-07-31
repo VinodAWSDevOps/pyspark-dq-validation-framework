@@ -1,0 +1,36 @@
+table_name: customers
+sequence: 1
+source_path: landing/customers/
+volume_folder: customers
+bronze_target: insurance_dq_qa.bronze.customers
+silver_target: insurance_dq_qa.silver.customers
+gold_target: insurance_dq_qa.gold.customer_360
+primary_key: customer_id
+scd_type: SCD2
+tracked_columns:
+  - address
+  - email
+effective_start_col: effective_start_date
+effective_end_col: effective_end_date
+is_current_col: is_current
+mandatory_columns:
+  - customer_id
+  - customer_name
+  - dob
+foreign_keys: {}
+business_rules:
+  dob:
+    max_date: today
+date_columns:
+  - dob
+  - customer_since
+expected_file_format:
+  delimiter: ","
+  encoding: "utf-8"
+  expected_headers:
+    - customer_id
+    - customer_name
+    - dob
+    - address
+    - email
+    - customer_since

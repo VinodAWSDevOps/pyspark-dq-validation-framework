@@ -1,0 +1,35 @@
+gold_tables:
+  - gold_table: insurance_dq_qa.gold.customer_360
+    source_tables:
+      - insurance_dq_qa.silver.customers
+    aggregation_type: passthrough
+    group_by_columns: []
+    aggregate_columns: []
+    reconciliation_rule: "row_count_gold == row_count_silver where is_current = true"
+
+  - gold_table: insurance_dq_qa.gold.claims_summary_by_policy
+    source_tables:
+      - insurance_dq_qa.silver.policies
+      - insurance_dq_qa.silver.claims
+    aggregation_type: join_aggregate
+    group_by_columns:
+      - policy_id
+    aggregate_columns:
+      - column: claim_amount
+        function: sum
+      - column: claim_id
+        function: count
+    reconciliation_rule: "sum(claim_amount) in gold == sum(claim_amount) in silver claims minus rejects"
+
+  - gold_table: insurance_dq_qa.gold.monthly_claims_trend
+    source_tables:
+      - insurance_dq_qa.silver.claims
+    aggregation_type: group_aggregate
+    group_by_columns:
+      - claim_month
+    aggregate_columns:
+      - column: claim_id
+        function: count
+      - column: claim_amount
+        function: sum
+    reconciliation_rule: "sum of row counts across all months == total silver claims row count"

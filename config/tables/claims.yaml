@@ -1,0 +1,37 @@
+table_name: claims
+sequence: 3
+source_path: landing/claims/
+volume_folder: claims
+bronze_target: insurance_dq_qa.bronze.claims
+silver_target: insurance_dq_qa.silver.claims
+gold_target: null
+primary_key: claim_id
+scd_type: none
+tracked_columns: []
+mandatory_columns:
+  - claim_id
+  - policy_id
+  - claim_date
+  - claim_amount
+foreign_keys:
+  policy_id: policies.policy_id
+business_rules:
+  claim_amount:
+    min: 0
+  claim_status:
+    enum:
+      - Approved
+      - Denied
+      - Pending
+date_columns:
+  - claim_date
+expected_file_format:
+  delimiter: ","
+  encoding: "utf-8"
+  expected_headers:
+    - claim_id
+    - policy_id
+    - claim_date
+    - claim_amount
+    - claim_status
+    - claim_reason

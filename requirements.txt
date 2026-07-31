@@ -1,0 +1,9 @@
+pandas
+pyyaml
+pytest
+allure-pytest
+databricks-sql-connector
+pydeequ
+great-expectations
+faker
+python-dotenv

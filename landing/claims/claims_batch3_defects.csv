@@ -1,0 +1,81 @@
+claim_id,policy_id,claim_date,claim_amount,claim_status,claim_reason,batch_id,load_timestamp
+CLM009001,POL91200,2025-06-17,11511.31,Pending,Death benefit claim,batch_003_defects,2026-08-06T17:58:20
+CLM009002,POL95718,2024-11-03,5407.54,Denied,Windshield damage,batch_003_defects,2026-08-06T17:58:20
+CLM009003,POL92584,2026-01-30,21993.83,Denied,Theft of vehicle,batch_003_defects,2026-08-06T17:58:20
+CLM009004,POL98666,2025-05-27,20860.25,Pending,Terminal illness claim,batch_003_defects,2026-08-06T17:58:20
+CLM009005,POL91697,2024-11-16,16729.79,Pending,Roof damage from storm,batch_003_defects,2026-08-06T17:58:20
+CLM009006,POL92546,2025-12-30,6685.20,Approved,Fallen tree damage,batch_003_defects,2026-08-06T17:58:20
+CLM009007,POL93335,2026-03-21,7115.73,Approved,Surgery reimbursement,batch_003_defects,2026-08-06T17:58:20
+CLM009008,POL91512,2023-11-01,12684.69,Denied,Death benefit claim,batch_003_defects,2026-08-06T17:58:20
+CLM009009,POL95464,2026-03-04,20750.77,Approved,Water damage,batch_003_defects,2026-08-06T17:58:20
+CLM009010,POL97239,2024-01-01,15964.12,Denied,Fire damage,batch_003_defects,2026-08-06T17:58:20
+CLM009011,POL91832,2024-06-17,17671.12,Pending,Vehicle collision,batch_003_defects,2026-08-06T17:58:20
+CLM009012,POL98938,2026-03-28,23631.77,Pending,Windshield damage,batch_003_defects,2026-08-06T17:58:20
+CLM009013,POL92426,2024-06-22,20881.42,Pending,Hospital stay,batch_003_defects,2026-08-06T17:58:20
+CLM009014,POL90653,2024-09-14,3273.39,Denied,Surgery reimbursement,batch_003_defects,2026-08-06T17:58:20
+CLM009015,POL91684,2026-05-21,5330.91,Approved,Accidental death claim,batch_003_defects,2026-08-06T17:58:20
+CLM009016,POL92532,2023-12-04,19524.89,Denied,Hospital stay,batch_003_defects,2026-08-06T17:58:20
+CLM009017,POL90406,2024-03-30,21628.68,Approved,Terminal illness claim,batch_003_defects,2026-08-06T17:58:20
+CLM009018,POL94065,2024-08-06,18440.46,Denied,Prescription claim,batch_003_defects,2026-08-06T17:58:20
+CLM009019,POL96267,2024-04-26,4064.03,Pending,Vehicle collision,batch_003_defects,2026-08-06T17:58:20
+CLM009020,POL97541,2025-12-04,21478.97,Approved,Fire damage,batch_003_defects,2026-08-06T17:58:20
+CLM009021,POL02865,2023-11-24,,Approved,Windshield damage,batch_003_defects,2026-08-06T17:58:20
+CLM009022,POL00194,2024-03-30,,Denied,Surgery reimbursement,batch_003_defects,2026-08-06T17:58:20
+CLM009023,POL02283,2023-08-04,,Denied,Terminal illness claim,batch_003_defects,2026-08-06T17:58:20
+CLM009024,POL04174,2025-04-25,,Pending,Terminal illness claim,batch_003_defects,2026-08-06T17:58:20
+CLM009025,POL00227,2025-06-29,,Denied,Death benefit claim,batch_003_defects,2026-08-06T17:58:20
+CLM009026,POL04757,2026-07-05,,Denied,Death benefit claim,batch_003_defects,2026-08-06T17:58:20
+CLM009027,POL00889,2026-02-07,,Denied,Roof damage from storm,batch_003_defects,2026-08-06T17:58:20
+CLM009028,POL03575,2025-07-29,,Pending,Death benefit claim,batch_003_defects,2026-08-06T17:58:20
+CLM009029,POL03156,2024-10-25,,Approved,Terminal illness claim,batch_003_defects,2026-08-06T17:58:20
+CLM009030,POL00364,2023-09-19,,Approved,Hospital stay,batch_003_defects,2026-08-06T17:58:20
+CLM009031,POL04411,2024-07-24,,Pending,Fire damage,batch_003_defects,2026-08-06T17:58:20
+CLM009032,POL02984,2024-10-20,,Pending,Roof damage from storm,batch_003_defects,2026-08-06T17:58:20
+CLM009033,POL02572,2024-10-12,,Approved,Surgery reimbursement,batch_003_defects,2026-08-06T17:58:20
+CLM009034,POL04155,2026-07-27,,Denied,Roof damage from storm,batch_003_defects,2026-08-06T17:58:20
+CLM009035,POL03297,2025-07-05,,Pending,Death benefit claim,batch_003_defects,2026-08-06T17:58:20
+CLM009036,POL01572,2023-11-18,,Denied,Fire damage,batch_003_defects,2026-08-06T17:58:20
+CLM009037,POL05043,2026-07-02,,Denied,Accidental death claim,batch_003_defects,2026-08-06T17:58:20
+CLM009038,POL00004,2024-07-27,,Approved,Burglary,batch_003_defects,2026-08-06T17:58:20
+CLM009039,POL04752,2024-09-13,,Denied,Terminal illness claim,batch_003_defects,2026-08-06T17:58:20
+CLM009040,POL03620,2026-03-27,,Approved,Vandalism damage,batch_003_defects,2026-08-06T17:58:20
+CLM009041,POL03877,2026-02-01,-16488.33,Pending,Windshield damage,batch_003_defects,2026-08-06T17:58:20
+CLM009042,POL02325,2026-05-23,-8412.95,Pending,Fallen tree damage,batch_003_defects,2026-08-06T17:58:20
+CLM009043,POL01925,2024-06-02,-3726.48,Approved,Fire damage,batch_003_defects,2026-08-06T17:58:20
+CLM009044,POL00379,2025-05-21,-21250.96,Denied,Accidental death claim,batch_003_defects,2026-08-06T17:58:20
+CLM009045,POL00597,2024-01-25,-4901.16,Pending,Vandalism damage,batch_003_defects,2026-08-06T17:58:20
+CLM009046,POL03146,2025-11-22,-16418.65,Approved,Death benefit claim,batch_003_defects,2026-08-06T17:58:20
+CLM009047,POL00046,2024-07-14,-5510.09,Approved,Terminal illness claim,batch_003_defects,2026-08-06T17:58:20
+CLM009048,POL04244,2026-05-02,-22940.88,Pending,Emergency room visit,batch_003_defects,2026-08-06T17:58:20
+CLM009049,POL00995,2024-03-18,-13301.74,Denied,Accidental death claim,batch_003_defects,2026-08-06T17:58:20
+CLM009050,POL04579,2024-09-15,-20384.41,Denied,Hospital stay,batch_003_defects,2026-08-06T17:58:20
+CLM009051,POL04136,2024-03-07,-22435.34,Pending,Prescription claim,batch_003_defects,2026-08-06T17:58:20
+CLM009052,POL03889,2023-11-18,-6968.92,Approved,Accidental death claim,batch_003_defects,2026-08-06T17:58:20
+CLM009053,POL04271,2023-10-31,-11024.82,Approved,Theft of vehicle,batch_003_defects,2026-08-06T17:58:20
+CLM009054,POL02341,2024-04-13,-22331.02,Denied,Surgery reimbursement,batch_003_defects,2026-08-06T17:58:20
+CLM009055,POL00661,2024-11-19,-17364.05,Approved,Terminal illness claim,batch_003_defects,2026-08-06T17:58:20
+CLM009056,POL01753,2026-02-09,1699.30,Escalated,Surgery reimbursement,batch_003_defects,2026-08-06T17:58:20
+CLM009057,POL04446,2025-12-31,11701.52,Escalated,Fire damage,batch_003_defects,2026-08-06T17:58:20
+CLM009058,POL03442,2024-10-21,9797.97,Escalated,Vehicle collision,batch_003_defects,2026-08-06T17:58:20
+CLM009059,POL04717,2025-06-12,9571.49,Escalated,Surgery reimbursement,batch_003_defects,2026-08-06T17:58:20
+CLM009060,POL02447,2024-02-09,18861.53,Escalated,Accidental death claim,batch_003_defects,2026-08-06T17:58:20
+CLM009061,POL04474,2025-07-28,20016.72,Escalated,Prescription claim,batch_003_defects,2026-08-06T17:58:20
+CLM009062,POL01798,2026-07-04,6896.09,Escalated,Medical procedure,batch_003_defects,2026-08-06T17:58:20
+CLM009063,POL03186,2024-11-14,8469.63,Escalated,Prescription claim,batch_003_defects,2026-08-06T17:58:20
+CLM009064,POL01353,2026-07-21,21028.59,Escalated,Vandalism damage,batch_003_defects,2026-08-06T17:58:20
+CLM009065,POL04376,2025-04-16,771.46,Escalated,Fallen tree damage,batch_003_defects,2026-08-06T17:58:20
+CLM009066,POL04624,2024-09-25,16608.69,Escalated,Accidental death claim,batch_003_defects,2026-08-06T17:58:20
+CLM009067,POL03512,2025-09-15,3478.92,Escalated,Death benefit claim,batch_003_defects,2026-08-06T17:58:20
+CLM009068,POL00412,2025-11-15,6577.89,Escalated,Fire damage,batch_003_defects,2026-08-06T17:58:20
+CLM009069,POL03725,2025-09-05,8238.46,Escalated,Roof damage from storm,batch_003_defects,2026-08-06T17:58:20
+CLM009070,POL03454,2025-06-10,6381.56,Escalated,Hit and run,batch_003_defects,2026-08-06T17:58:20
+CLM000159,POL03725,2023-08-28,8238.46,Denied,Roof damage from storm,batch_003_defects,2026-08-06T17:58:20
+CLM006137,POL02700,2026-03-28,20198.78,Approved,Fire damage,batch_003_defects,2026-08-06T17:58:20
+CLM004419,POL01051,2025-07-04,14457.74,Pending,Hospital stay,batch_003_defects,2026-08-06T17:58:20
+CLM000427,POL03248,2023-10-14,12599.98,Approved,Burglary,batch_003_defects,2026-08-06T17:58:20
+CLM002867,POL01964,2024-11-05,16347.82,Approved,Terminal illness claim,batch_003_defects,2026-08-06T17:58:20
+CLM001837,POL03625,2024-05-21,7286.99,Pending,Terminal illness claim,batch_003_defects,2026-08-06T17:58:20
+CLM005326,POL00340,2025-11-25,22472.93,Approved,Hospital stay,batch_003_defects,2026-08-06T17:58:20
+CLM000563,POL01908,2023-11-04,1407.03,Denied,Roof damage from storm,batch_003_defects,2026-08-06T17:58:20
+CLM006400,POL02786,2026-05-06,20506.20,Denied,Death benefit claim,batch_003_defects,2026-08-06T17:58:20
+CLM005340,POL00971,2025-11-28,10553.01,Approved,Accidental death claim,batch_003_defects,2026-08-06T17:58:20

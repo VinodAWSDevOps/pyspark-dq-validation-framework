@@ -1,0 +1,38 @@
+table_name: policies
+sequence: 2
+source_path: landing/policies/
+volume_folder: policies
+bronze_target: insurance_dq_qa.bronze.policies
+silver_target: insurance_dq_qa.silver.policies
+gold_target: null
+primary_key: policy_id
+scd_type: SCD1
+tracked_columns:
+  - premium_amount
+  - policy_status
+mandatory_columns:
+  - policy_id
+  - customer_id
+  - policy_type
+  - policy_start_date
+foreign_keys:
+  customer_id: customers.customer_id
+business_rules:
+  premium_amount:
+    min: 0
+  policy_end_date:
+    after: policy_start_date
+date_columns:
+  - policy_start_date
+  - policy_end_date
+expected_file_format:
+  delimiter: ","
+  encoding: "utf-8"
+  expected_headers:
+    - policy_id
+    - customer_id
+    - policy_type
+    - policy_start_date
+    - policy_end_date
+    - premium_amount
+    - policy_status

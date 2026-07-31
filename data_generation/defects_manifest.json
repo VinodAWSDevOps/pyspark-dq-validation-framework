@@ -1,0 +1,1402 @@
+[
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02051",
+    "defect_type": "null_customer_name",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02052",
+    "defect_type": "null_customer_name",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02053",
+    "defect_type": "null_customer_name",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02054",
+    "defect_type": "null_customer_name",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02055",
+    "defect_type": "null_customer_name",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02056",
+    "defect_type": "null_customer_name",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02057",
+    "defect_type": "null_customer_name",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02058",
+    "defect_type": "null_customer_name",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02059",
+    "defect_type": "null_customer_name",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02060",
+    "defect_type": "null_customer_name",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02061",
+    "defect_type": "null_dob",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02062",
+    "defect_type": "null_dob",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02063",
+    "defect_type": "null_dob",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02064",
+    "defect_type": "null_dob",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02065",
+    "defect_type": "null_dob",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02066",
+    "defect_type": "null_dob",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02067",
+    "defect_type": "null_dob",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02068",
+    "defect_type": "null_dob",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02069",
+    "defect_type": "null_dob",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02070",
+    "defect_type": "null_dob",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST00458",
+    "defect_type": "duplicate_customer_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST00286",
+    "defect_type": "duplicate_customer_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST01509",
+    "defect_type": "duplicate_customer_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST00210",
+    "defect_type": "duplicate_customer_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST01386",
+    "defect_type": "duplicate_customer_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST01517",
+    "defect_type": "duplicate_customer_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST01828",
+    "defect_type": "duplicate_customer_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST01117",
+    "defect_type": "duplicate_customer_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST00179",
+    "defect_type": "duplicate_customer_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST01210",
+    "defect_type": "duplicate_customer_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02071",
+    "defect_type": "future_dob",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02072",
+    "defect_type": "future_dob",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02073",
+    "defect_type": "future_dob",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02074",
+    "defect_type": "future_dob",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02075",
+    "defect_type": "future_dob",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02076",
+    "defect_type": "future_dob",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02077",
+    "defect_type": "future_dob",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02078",
+    "defect_type": "future_dob",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02079",
+    "defect_type": "future_dob",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "customers",
+    "file": "landing/customers/customers_batch3_defects.csv",
+    "row_identifier": "CUST02080",
+    "defect_type": "future_dob",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05101",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05102",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05103",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05104",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05105",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05106",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05107",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05108",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05109",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05110",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05111",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05112",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05113",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05114",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05115",
+    "defect_type": "orphan_customer_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05116",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05117",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05118",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05119",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05120",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05121",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05122",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05123",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05124",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05125",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05126",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05127",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05128",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05129",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05130",
+    "defect_type": "negative_premium_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05131",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05132",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05133",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05134",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05135",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05136",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05137",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05138",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05139",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05140",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05141",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05142",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05143",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05144",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL05145",
+    "defect_type": "end_date_before_start_date",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL04782",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL04631",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL04283",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL02592",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL02137",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL01674",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL02574",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL01956",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL02176",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL03243",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL01073",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL02458",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL03746",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL02591",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "policies",
+    "file": "landing/policies/policies_batch3_defects.csv",
+    "row_identifier": "POL00595",
+    "defect_type": "duplicate_policy_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009001",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009002",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009003",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009004",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009005",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009006",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009007",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009008",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009009",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009010",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009011",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009012",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009013",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009014",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009015",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009016",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009017",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009018",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009019",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009020",
+    "defect_type": "orphan_policy_id",
+    "expected_validator": "referential_integrity_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009021",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009022",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009023",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009024",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009025",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009026",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009027",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009028",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009029",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009030",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009031",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009032",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009033",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009034",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009035",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009036",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009037",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009038",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009039",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009040",
+    "defect_type": "null_claim_amount",
+    "expected_validator": "completeness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009041",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009042",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009043",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009044",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009045",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009046",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009047",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009048",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009049",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009050",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009051",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009052",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009053",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009054",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009055",
+    "defect_type": "negative_claim_amount",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009056",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009057",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009058",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009059",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009060",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009061",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009062",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009063",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009064",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009065",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009066",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009067",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009068",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009069",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM009070",
+    "defect_type": "invalid_claim_status_enum",
+    "expected_validator": "business_rule_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM000159",
+    "defect_type": "duplicate_claim_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM006137",
+    "defect_type": "duplicate_claim_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM004419",
+    "defect_type": "duplicate_claim_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM000427",
+    "defect_type": "duplicate_claim_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM002867",
+    "defect_type": "duplicate_claim_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM001837",
+    "defect_type": "duplicate_claim_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM005326",
+    "defect_type": "duplicate_claim_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM000563",
+    "defect_type": "duplicate_claim_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM006400",
+    "defect_type": "duplicate_claim_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch3_defects.csv",
+    "row_identifier": "CLM005340",
+    "defect_type": "duplicate_claim_id",
+    "expected_validator": "uniqueness_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009081",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009082",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009083",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009084",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009085",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009086",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009087",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009088",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009089",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009090",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009091",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009092",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009093",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009094",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009095",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009096",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009097",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009098",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009099",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  },
+  {
+    "table": "claims",
+    "file": "landing/claims/claims_batch4_schema_drift.csv",
+    "row_identifier": "CLM009100",
+    "defect_type": "schema_drift_renamed_column",
+    "expected_validator": "file_format_validator"
+  }
+]

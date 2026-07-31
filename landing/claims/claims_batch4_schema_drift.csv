@@ -1,0 +1,21 @@
+claim_id,policy_id,claim_date,claim_amount,claim_status,reason_notes,batch_id,load_timestamp
+CLM009081,POL00330,2023-12-02,18880.41,Approved,Fire damage,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009082,POL00167,2026-02-14,15571.26,Approved,Death benefit claim,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009083,POL03880,2023-09-30,16769.53,Pending,Fire damage,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009084,POL03810,2025-06-01,17516.68,Denied,Emergency room visit,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009085,POL04964,2024-12-12,15220.46,Pending,Accidental death claim,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009086,POL00939,2026-02-22,19467.02,Approved,Roof damage from storm,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009087,POL00886,2024-08-22,14509.25,Denied,Hospital stay,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009088,POL03075,2023-09-09,9976.70,Pending,Windshield damage,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009089,POL00623,2023-12-19,14843.24,Pending,Fire damage,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009090,POL00835,2024-07-20,17460.11,Denied,Hospital stay,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009091,POL00992,2026-06-12,19926.06,Pending,Water damage,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009092,POL02845,2026-01-09,13365.36,Pending,Roof damage from storm,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009093,POL00565,2026-01-28,12698.42,Denied,Vehicle collision,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009094,POL03442,2023-09-01,20576.04,Approved,Hit and run,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009095,POL02968,2026-06-09,15926.07,Denied,Emergency room visit,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009096,POL03568,2024-09-21,4485.81,Pending,Theft of vehicle,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009097,POL05046,2026-01-11,20224.16,Pending,Hit and run,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009098,POL03809,2023-10-01,10945.80,Pending,Hospital stay,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009099,POL02199,2024-04-28,8125.38,Approved,Medical procedure,batch_004_schema_drift,2026-08-09T17:58:20
+CLM009100,POL02285,2025-07-30,22052.62,Approved,Burglary,batch_004_schema_drift,2026-08-09T17:58:20
