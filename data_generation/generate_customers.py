@@ -6,10 +6,12 @@ from __future__ import annotations
 
 import csv
 import random
-from datetime import date, datetime, timedelta
+from datetime import datetime, timedelta
 from pathlib import Path
 
 from faker import Faker
+
+from reference_date import REFERENCE_DATE, REFERENCE_DATETIME, years_before
 
 SEED = 42
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "landing" / "customers"
@@ -27,8 +29,12 @@ def make_customer_id(n: int) -> str:
 
 
 def generate_customer_fields(fake: Faker) -> dict:
-    dob = fake.date_of_birth(minimum_age=18, maximum_age=85)
-    customer_since = fake.date_between(start_date="-10y", end_date=date.today() - timedelta(days=1))
+    dob = fake.date_between_dates(
+        date_start=years_before(REFERENCE_DATE, 85), date_end=years_before(REFERENCE_DATE, 18)
+    )
+    customer_since = fake.date_between_dates(
+        date_start=years_before(REFERENCE_DATE, 10), date_end=REFERENCE_DATE - timedelta(days=1)
+    )
     return {
         "customer_name": fake.name(),
         "dob": dob.isoformat(),
@@ -52,7 +58,7 @@ def main() -> None:
     fake = Faker()
 
     # --- Batch 1: 2000 fresh customers ---
-    batch1_timestamp = datetime.now().isoformat(timespec="seconds")
+    batch1_timestamp = REFERENCE_DATETIME.isoformat(timespec="seconds")
     batch1_rows = []
     for i in range(1, BATCH1_COUNT + 1):
         row = {

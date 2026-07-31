@@ -17,6 +17,8 @@ from pathlib import Path
 
 from faker import Faker
 
+from reference_date import REFERENCE_DATE, REFERENCE_DATETIME, years_before
+
 SEED = 42
 POLICIES_DIR = Path(__file__).resolve().parent.parent / "landing" / "policies"
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "landing" / "claims"
@@ -94,9 +96,12 @@ def main() -> None:
     valid_policy_ids, policy_type_by_id = load_valid_policies()
 
     # --- Batch 1: 7000 fresh claims, dates sorted so the file reads chronologically ---
-    batch1_timestamp = datetime.now().isoformat(timespec="seconds")
+    batch1_timestamp = REFERENCE_DATETIME.isoformat(timespec="seconds")
 
-    batch1_dates = sorted(fake.date_between(start_date="-3y", end_date="today") for _ in range(BATCH1_COUNT))
+    claims_range_start = years_before(REFERENCE_DATE, 3)
+    batch1_dates = sorted(
+        fake.date_between_dates(date_start=claims_range_start, date_end=REFERENCE_DATE) for _ in range(BATCH1_COUNT)
+    )
     earliest_batch1_date = batch1_dates[0]
 
     batch1_rows = []
@@ -130,7 +135,7 @@ def main() -> None:
             claim_date = earliest_batch1_date - timedelta(days=random.randint(1, 180))
             late_count += 1
         else:
-            claim_date = fake.date_between(start_date="-3y", end_date="today")
+            claim_date = fake.date_between_dates(date_start=claims_range_start, date_end=REFERENCE_DATE)
 
         row = {
             "claim_id": make_claim_id(i),

@@ -1,41 +1,41 @@
 customer_id,customer_name,dob,address,email,customer_since,batch_id,load_timestamp
-CUST02051,,1984-02-04,"600 Jeffery Parkways, New Jamesside, MT 29394",zlawrence@example.org,2018-06-21,batch_003_defects,2026-08-04T17:21:16
-CUST02052,,1992-03-20,"USNV Garcia, FPO AA 13177",melanie94@example.org,2019-04-18,batch_003_defects,2026-08-04T17:21:16
-CUST02053,,1990-03-28,"310 Kendra Common Apt. 164, Reidstad, GA 49021",jason41@example.net,2024-05-23,batch_003_defects,2026-08-04T17:21:16
-CUST02054,,1983-10-16,"503 Linda Locks, Carlshire, FM 94599",jason76@example.net,2019-06-28,batch_003_defects,2026-08-04T17:21:16
-CUST02055,,1971-10-21,"653 William Course Apt. 122, Carlsonfurt, MS 78605",jrice@example.org,2019-01-03,batch_003_defects,2026-08-04T17:21:16
-CUST02056,,1986-11-15,"6270 Stanton Track, New Rita, VI 82460",meagan89@example.org,2018-07-11,batch_003_defects,2026-08-04T17:21:16
-CUST02057,,1950-12-24,"570 Sarah Wells, Johnbury, FM 74865",millertodd@example.org,2022-12-09,batch_003_defects,2026-08-04T17:21:16
-CUST02058,,2007-02-17,"963 Jennifer Locks Suite 787, East Jeffreymouth, AK 77611",briannasmith@example.net,2025-08-22,batch_003_defects,2026-08-04T17:21:16
-CUST02059,,1983-07-12,"7382 Sanchez Mountains, Leeville, TN 56999",rodney70@example.net,2017-07-30,batch_003_defects,2026-08-04T17:21:16
-CUST02060,,1985-01-17,"87262 Ford Well, South Lindseyside, CT 07131",novaksara@example.org,2018-04-02,batch_003_defects,2026-08-04T17:21:16
-CUST02061,Mr. James Brown,,"7468 Moore Hill Apt. 098, Lake Leeton, OR 62994",brianromero@example.org,2023-06-29,batch_003_defects,2026-08-04T17:21:16
-CUST02062,Cynthia Wilson,,"909 Robert Prairie, Sarahborough, TN 94373",john62@example.net,2017-09-25,batch_003_defects,2026-08-04T17:21:16
-CUST02063,Timothy Walls,,"83842 Ibarra Gardens, Justinmouth, MP 71701",cheryl80@example.net,2021-09-06,batch_003_defects,2026-08-04T17:21:16
-CUST02064,Matthew Mcmillan,,"82449 Jennifer Ford, Williamview, MH 07159",waltersmaria@example.org,2026-01-05,batch_003_defects,2026-08-04T17:21:16
-CUST02065,Mandy Green,,"011 Amy Village Suite 982, Andersonport, MN 05730",jason31@example.com,2022-04-02,batch_003_defects,2026-08-04T17:21:16
-CUST02066,Jennifer Oliver,,"26025 Pham Way, West Erik, UT 14669",ebrennan@example.org,2026-02-06,batch_003_defects,2026-08-04T17:21:16
-CUST02067,Robert Savage,,"5414 May Locks, Sheilaville, FM 34738",beverlyterrell@example.org,2024-05-29,batch_003_defects,2026-08-04T17:21:16
-CUST02068,Richard Graham,,"Unit 1693 Box 4060, DPO AP 71076",michaeljones@example.net,2023-12-21,batch_003_defects,2026-08-04T17:21:16
-CUST02069,Mary Martinez,,"PSC 8465, Box 6482, APO AE 55609",lbyrd@example.net,2022-03-12,batch_003_defects,2026-08-04T17:21:16
-CUST02070,Roy Torres,,"7738 Leon Underpass Apt. 148, Clarencebury, TX 41188",lindsayhernandez@example.org,2021-09-12,batch_003_defects,2026-08-04T17:21:16
-CUST00458,Eric Hays,1998-07-29,"311 Eric Crest Apt. 331, Johnsonhaven, NV 51712",howekevin@example.com,2019-03-18,batch_003_defects,2026-08-04T17:21:16
-CUST00286,Robert Hines,1974-12-09,"2801 Samantha Vista, Richardsonshire, HI 58128",whitemichael@example.com,2026-04-12,batch_003_defects,2026-08-04T17:21:16
-CUST01509,Jennifer Miller,1944-08-12,"770 John Islands, Frankport, TN 39004",kristijohnson@example.org,2020-12-23,batch_003_defects,2026-08-04T17:21:16
-CUST00210,Edward Baker,1945-04-07,"862 Christine Lakes, West Jennifer, TN 71143",rlee@example.com,2025-08-12,batch_003_defects,2026-08-04T17:21:16
-CUST01386,Scott Newman,1950-10-10,"6924 Kenneth Well Apt. 548, Larsonburgh, DE 24967",parkspaul@example.org,2020-08-27,batch_003_defects,2026-08-04T17:21:16
-CUST01517,Michelle Romero,1962-02-04,"54425 Juan Squares Suite 777, Justinview, OK 51687",laura30@example.com,2017-05-09,batch_003_defects,2026-08-04T17:21:16
-CUST01828,Lisa Farley,1961-12-24,"3738 Megan Trail, East James, PR 06158",mjohnson@example.net,2024-09-07,batch_003_defects,2026-08-04T17:21:16
-CUST01117,Christopher Perez,1985-08-07,"80620 Kimberly Parks, North Shelby, AS 34799",rebeccacurtis@example.com,2022-06-10,batch_003_defects,2026-08-04T17:21:16
-CUST00179,Emily Hayes,1982-09-27,"929 Aguirre Meadow Apt. 053, Lake Jodi, NE 36765",dennis57@example.com,2017-10-06,batch_003_defects,2026-08-04T17:21:16
-CUST01210,Kristina Hernandez,1993-04-06,"2637 Zimmerman Union, East Oliviahaven, MS 56752",davisdavid@example.org,2024-01-05,batch_003_defects,2026-08-04T17:21:16
-CUST02071,Patricia Gibson,2031-04-25,"676 Dylan Spurs, Port Michelleville, WI 56225",gregoryrubio@example.net,2024-08-29,batch_003_defects,2026-08-04T17:21:16
-CUST02072,Sylvia Martinez,2026-12-09,"889 Dodson Mills Suite 872, Colebury, MP 84080",katie87@example.net,2017-06-07,batch_003_defects,2026-08-04T17:21:16
-CUST02073,Micheal Young,2026-12-01,"23623 Robert Isle, Perryborough, MP 55570",lstein@example.net,2021-04-01,batch_003_defects,2026-08-04T17:21:16
-CUST02074,Aaron Bell,2027-08-19,"893 Robinson Mews Suite 065, Ramseymouth, PW 17229",meadowsbrittany@example.net,2026-05-16,batch_003_defects,2026-08-04T17:21:16
-CUST02075,Brandy Murray,2029-01-12,"3755 Ramirez Village Suite 417, Lake Amberstad, IN 85716",harringtondenise@example.org,2018-01-02,batch_003_defects,2026-08-04T17:21:16
-CUST02076,Alex Hernandez,2029-03-10,"374 Jackson Rest, Port Loriport, CT 76350",hickmanbarbara@example.com,2020-10-13,batch_003_defects,2026-08-04T17:21:16
-CUST02077,Michael Burton,2032-03-31,"919 Michael Meadow Suite 185, Port Robertfort, CT 57323",cynthia72@example.com,2019-12-14,batch_003_defects,2026-08-04T17:21:16
-CUST02078,Debra Morton,2033-05-01,"6945 Mariah Corners Suite 737, Rogersfort, PR 43101",tonykelly@example.com,2025-06-15,batch_003_defects,2026-08-04T17:21:16
-CUST02079,Meredith Hill,2026-11-17,"36783 Brewer Overpass, Mcguireland, LA 29546",tholt@example.net,2021-05-02,batch_003_defects,2026-08-04T17:21:16
-CUST02080,Joseph Coleman,2032-11-15,"7444 David Fields Suite 182, East Joanna, KY 95473",tina34@example.org,2022-11-09,batch_003_defects,2026-08-04T17:21:16
+CUST02051,,1985-02-03,"600 Jeffery Parkways, New Jamesside, MT 29394",zlawrence@example.org,2018-06-22,batch_003_defects,2026-08-04T00:00:00
+CUST02052,,1993-03-20,"USNV Garcia, FPO AA 13177",melanie94@example.org,2019-04-19,batch_003_defects,2026-08-04T00:00:00
+CUST02053,,1991-03-28,"310 Kendra Common Apt. 164, Reidstad, GA 49021",jason41@example.net,2024-05-24,batch_003_defects,2026-08-04T00:00:00
+CUST02054,,1984-10-15,"503 Linda Locks, Carlshire, FM 94599",jason76@example.net,2019-06-29,batch_003_defects,2026-08-04T00:00:00
+CUST02055,,1972-10-20,"653 William Course Apt. 122, Carlsonfurt, MS 78605",jrice@example.org,2019-01-04,batch_003_defects,2026-08-04T00:00:00
+CUST02056,,1987-11-15,"6270 Stanton Track, New Rita, VI 82460",meagan89@example.org,2018-07-12,batch_003_defects,2026-08-04T00:00:00
+CUST02057,,1951-12-24,"570 Sarah Wells, Johnbury, FM 74865",millertodd@example.org,2022-12-10,batch_003_defects,2026-08-04T00:00:00
+CUST02058,,2008-02-17,"963 Jennifer Locks Suite 787, East Jeffreymouth, AK 77611",briannasmith@example.net,2025-08-23,batch_003_defects,2026-08-04T00:00:00
+CUST02059,,1984-07-11,"7382 Sanchez Mountains, Leeville, TN 56999",rodney70@example.net,2017-07-31,batch_003_defects,2026-08-04T00:00:00
+CUST02060,,1986-01-17,"87262 Ford Well, South Lindseyside, CT 07131",novaksara@example.org,2018-04-03,batch_003_defects,2026-08-04T00:00:00
+CUST02061,Mr. James Brown,,"7468 Moore Hill Apt. 098, Lake Leeton, OR 62994",brianromero@example.org,2023-06-30,batch_003_defects,2026-08-04T00:00:00
+CUST02062,Cynthia Wilson,,"909 Robert Prairie, Sarahborough, TN 94373",john62@example.net,2017-09-26,batch_003_defects,2026-08-04T00:00:00
+CUST02063,Timothy Walls,,"83842 Ibarra Gardens, Justinmouth, MP 71701",cheryl80@example.net,2021-09-07,batch_003_defects,2026-08-04T00:00:00
+CUST02064,Matthew Mcmillan,,"82449 Jennifer Ford, Williamview, MH 07159",waltersmaria@example.org,2026-01-06,batch_003_defects,2026-08-04T00:00:00
+CUST02065,Mandy Green,,"011 Amy Village Suite 982, Andersonport, MN 05730",jason31@example.com,2022-04-03,batch_003_defects,2026-08-04T00:00:00
+CUST02066,Jennifer Oliver,,"26025 Pham Way, West Erik, UT 14669",ebrennan@example.org,2026-02-07,batch_003_defects,2026-08-04T00:00:00
+CUST02067,Robert Savage,,"5414 May Locks, Sheilaville, FM 34738",beverlyterrell@example.org,2024-05-30,batch_003_defects,2026-08-04T00:00:00
+CUST02068,Richard Graham,,"Unit 1693 Box 4060, DPO AP 71076",michaeljones@example.net,2023-12-22,batch_003_defects,2026-08-04T00:00:00
+CUST02069,Mary Martinez,,"PSC 8465, Box 6482, APO AE 55609",lbyrd@example.net,2022-03-13,batch_003_defects,2026-08-04T00:00:00
+CUST02070,Roy Torres,,"7738 Leon Underpass Apt. 148, Clarencebury, TX 41188",lindsayhernandez@example.org,2021-09-13,batch_003_defects,2026-08-04T00:00:00
+CUST00458,Eric Hays,1999-07-29,"311 Eric Crest Apt. 331, Johnsonhaven, NV 51712",howekevin@example.com,2019-03-19,batch_003_defects,2026-08-04T00:00:00
+CUST00286,Robert Hines,1975-12-09,"2801 Samantha Vista, Richardsonshire, HI 58128",whitemichael@example.com,2026-04-13,batch_003_defects,2026-08-04T00:00:00
+CUST01509,Mary Barton,1950-09-27,"490 Danielle Centers Suite 381, Ramoshaven, OR 75659",joseskinner@example.org,2021-10-26,batch_003_defects,2026-08-04T00:00:00
+CUST00210,Edward Baker,1946-04-07,"862 Christine Lakes, West Jennifer, TN 71143",rlee@example.com,2025-08-13,batch_003_defects,2026-08-04T00:00:00
+CUST01386,Joseph Williams,1975-11-27,"9466 Rebecca Radial Apt. 376, Scottmouth, NE 96793",sandovalnicole@example.com,2024-04-07,batch_003_defects,2026-08-04T00:00:00
+CUST01517,Amber Smith,1970-08-24,"4862 Diaz Lakes, South Steven, IN 74225",rebecca46@example.org,2021-05-20,batch_003_defects,2026-08-04T00:00:00
+CUST01828,Jonathan Mccoy,1978-06-18,"621 Anna Shore, Francofurt, NH 69628",williamsantos@example.com,2019-06-20,batch_003_defects,2026-08-04T00:00:00
+CUST01117,Laura Cox,1951-01-11,"57144 Shah Ranch Suite 674, Lake Omarfort, WY 27800",debbie45@example.org,2020-12-29,batch_003_defects,2026-08-04T00:00:00
+CUST00179,Emily Hayes,1983-09-27,"929 Aguirre Meadow Apt. 053, Lake Jodi, NE 36765",dennis57@example.com,2017-10-07,batch_003_defects,2026-08-04T00:00:00
+CUST01210,Carol Baker,2006-09-12,"61197 Megan Valleys Suite 657, Crystalview, MS 49299",henryparks@example.com,2019-12-01,batch_003_defects,2026-08-04T00:00:00
+CUST02071,Patricia Gibson,2031-04-25,"676 Dylan Spurs, Port Michelleville, WI 56225",gregoryrubio@example.net,2024-08-30,batch_003_defects,2026-08-04T00:00:00
+CUST02072,Sylvia Martinez,2026-12-09,"889 Dodson Mills Suite 872, Colebury, MP 84080",katie87@example.net,2017-06-08,batch_003_defects,2026-08-04T00:00:00
+CUST02073,Micheal Young,2026-12-01,"23623 Robert Isle, Perryborough, MP 55570",lstein@example.net,2021-04-02,batch_003_defects,2026-08-04T00:00:00
+CUST02074,Aaron Bell,2027-08-19,"893 Robinson Mews Suite 065, Ramseymouth, PW 17229",meadowsbrittany@example.net,2026-05-17,batch_003_defects,2026-08-04T00:00:00
+CUST02075,Brandy Murray,2029-01-12,"3755 Ramirez Village Suite 417, Lake Amberstad, IN 85716",harringtondenise@example.org,2018-01-03,batch_003_defects,2026-08-04T00:00:00
+CUST02076,Alex Hernandez,2029-03-10,"374 Jackson Rest, Port Loriport, CT 76350",hickmanbarbara@example.com,2020-10-14,batch_003_defects,2026-08-04T00:00:00
+CUST02077,Michael Burton,2032-03-31,"919 Michael Meadow Suite 185, Port Robertfort, CT 57323",cynthia72@example.com,2019-12-15,batch_003_defects,2026-08-04T00:00:00
+CUST02078,Debra Morton,2033-05-01,"6945 Mariah Corners Suite 737, Rogersfort, PR 43101",tonykelly@example.com,2025-06-16,batch_003_defects,2026-08-04T00:00:00
+CUST02079,Meredith Hill,2026-11-17,"36783 Brewer Overpass, Mcguireland, LA 29546",tholt@example.net,2021-05-03,batch_003_defects,2026-08-04T00:00:00
+CUST02080,Joseph Coleman,2032-11-15,"7444 David Fields Suite 182, East Joanna, KY 95473",tina34@example.org,2022-11-10,batch_003_defects,2026-08-04T00:00:00

@@ -34,6 +34,7 @@ from generate_claims import (
     load_valid_policies,
     make_claim_id,
 )
+from reference_date import REFERENCE_DATE, years_before
 
 SEED = 42
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -120,7 +121,7 @@ def build_customers_defects(fake: Faker, timestamp: str) -> list[dict]:
         customer_id = make_customer_id(next_id)
         next_id += 1
         fields = generate_customer_fields(fake)
-        fields["dob"] = (date.today() + timedelta(days=random.randint(1, 3650))).isoformat()
+        fields["dob"] = (REFERENCE_DATE + timedelta(days=random.randint(1, 3650))).isoformat()
         rows.append({"customer_id": customer_id, **fields, "batch_id": DEFECTS_BATCH_ID, "load_timestamp": timestamp})
         log_defect("customers", file_path, customer_id, "future_dob", "business_rule_validator")
 
@@ -180,7 +181,7 @@ def build_claims_defects(
     next_id = 9001
 
     def random_recent_date() -> date:
-        return fake.date_between(start_date="-3y", end_date="today")
+        return fake.date_between_dates(date_start=years_before(REFERENCE_DATE, 3), date_end=REFERENCE_DATE)
 
     for _ in range(20):  # orphan policy_id
         claim_id = make_claim_id(next_id)
@@ -233,7 +234,7 @@ def build_claims_schema_drift(
 
     for offset in range(20):
         claim_id = make_claim_id(start_id + offset)
-        claim_date = fake.date_between(start_date="-3y", end_date="today")
+        claim_date = fake.date_between_dates(date_start=years_before(REFERENCE_DATE, 3), date_end=REFERENCE_DATE)
         fields = generate_claim_fields(random.choice(valid_policy_ids), claim_date, policy_type_by_id)
         row = {"claim_id": claim_id, **fields, "batch_id": SCHEMA_DRIFT_BATCH_ID, "load_timestamp": timestamp}
         row["reason_notes"] = row.pop("claim_reason")

@@ -13,6 +13,8 @@ from pathlib import Path
 
 from faker import Faker
 
+from reference_date import REFERENCE_DATE, REFERENCE_DATETIME, years_before
+
 SEED = 42
 CUSTOMERS_DIR = Path(__file__).resolve().parent.parent / "landing" / "customers"
 OUTPUT_DIR = Path(__file__).resolve().parent.parent / "landing" / "policies"
@@ -56,7 +58,7 @@ def load_valid_customer_ids() -> list[str]:
 
 
 def generate_policy_fields(fake: Faker, valid_customer_ids: list[str]) -> dict:
-    start_date = fake.date_between(start_date="-5y", end_date="today")
+    start_date = fake.date_between_dates(date_start=years_before(REFERENCE_DATE, 5), date_end=REFERENCE_DATE)
     end_date = start_date + timedelta(days=random.randint(1, 3) * 365)
     premium_amount = round(random.uniform(200, 5000), 2)
     return {
@@ -85,7 +87,7 @@ def main() -> None:
     valid_customer_ids = load_valid_customer_ids()
 
     # --- Batch 1: 5000 fresh policies ---
-    batch1_timestamp = datetime.now().isoformat(timespec="seconds")
+    batch1_timestamp = REFERENCE_DATETIME.isoformat(timespec="seconds")
     batch1_rows = []
     for i in range(1, BATCH1_COUNT + 1):
         row = {
@@ -111,7 +113,9 @@ def main() -> None:
         if change_target in ("premium_amount", "both"):
             updated["premium_amount"] = f"{round(random.uniform(200, 5000), 2):.2f}"
         if change_target in ("policy_status", "both"):
-            updated["policy_status"] = random.choice(POLICY_STATUSES)
+            updated["policy_status"] = random.choice(
+                [status for status in POLICY_STATUSES if status != original["policy_status"]]
+            )
         updated["batch_id"] = "batch_002"
         updated["load_timestamp"] = batch2_timestamp
         changed_rows.append(updated)
