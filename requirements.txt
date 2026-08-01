@@ -7,3 +7,5 @@ pydeequ
 great-expectations
 faker
 python-dotenv
+databricks-connect
+databricks-sqlalchemy
