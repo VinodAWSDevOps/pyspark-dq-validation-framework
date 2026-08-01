@@ -5,3 +5,6 @@ __pycache__/
 .env
 spark-warehouse/
 metastore_db/
+.pytest_cache/
+reports/allure-results/*
+!reports/allure-results/.gitkeep
