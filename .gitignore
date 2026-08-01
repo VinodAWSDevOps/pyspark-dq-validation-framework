@@ -8,3 +8,4 @@ metastore_db/
 .pytest_cache/
 reports/allure-results/*
 !reports/allure-results/.gitkeep
+reports/allure-report/

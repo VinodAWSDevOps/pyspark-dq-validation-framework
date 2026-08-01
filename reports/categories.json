@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Known Data Quality Findings",
+    "matchedStatuses": ["failed"],
+    "messageRegex": ".*(violated it|NULL values|violating|Unexpected column found|dated before|expect_column_|failed:).*"
+  },
+  {
+    "name": "Unexpected Framework Defects",
+    "matchedStatuses": ["broken"]
+  }
+]

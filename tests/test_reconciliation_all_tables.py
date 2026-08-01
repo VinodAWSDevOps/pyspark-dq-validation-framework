@@ -1,12 +1,14 @@
+import allure
 import pytest
 
 from framework.validators.reconciliation_validator import validate_reconciliation
 
 
+@allure.feature("Reconciliation")
+@allure.severity(allure.severity_level.NORMAL)
 @pytest.mark.regression
 def test_reconciliation(gold_mapping):
+    allure.dynamic.story(gold_mapping.gold_table)
     result = validate_reconciliation(gold_mapping)
-    assert result.passed, (
-        f"Reconciliation validation failed for '{result.table_name}':\n"
-        + "\n".join(f"  - {issue}" for issue in result.issues)
-    )
+    if not result.passed:
+        pytest.fail("\n".join(result.issues), pytrace=False)
