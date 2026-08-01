@@ -9,11 +9,19 @@ this file, not assumed from documentation.
 from __future__ import annotations
 
 import os
+
+# Must be set before `import great_expectations` -- tqdm reads this at
+# import time. On its own this doesn't fully suppress GX's progress bars
+# (GX has its own progress_bars config, set separately below), but it's
+# the first line of defense.
+os.environ["TQDM_DISABLE"] = "1"
+
 from datetime import date
 from typing import Any, Dict, List, Tuple
 
 import great_expectations as gx
 from dotenv import load_dotenv
+from great_expectations.data_context.types.base import ProgressBarsConfig
 from great_expectations.expectations import (
     ExpectColumnPairValuesAToBeGreaterThanB,
     ExpectColumnValuesToBeBetween,
@@ -171,6 +179,7 @@ def run_ge_validation(table_config: TableConfig) -> ValidationResult:
     connection_string = _build_connection_string()
 
     context = gx.get_context(mode="ephemeral")
+    context.variables.progress_bars = ProgressBarsConfig(globally=False, metric_calculations=False)
     datasource = context.data_sources.add_databricks_sql(
         name=f"{table_config.table_name}_datasource", connection_string=connection_string
     )
